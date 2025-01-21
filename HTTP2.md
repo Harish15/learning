@@ -30,6 +30,29 @@ The adoption of HTTP2 brings significant performance benefits. Combining feature
 
 HTTP2 is designed to be backward-compatible with HTTP/1.1, ensuring that existing web infrastructure can seamlessly transition to the latest protocol. Most modern browsers and servers support HTTP/2, allowing website owners and developers to take advantage of its benefits without major compatibility issues.
 
+**Tool**
+
+**Wireshark** is a powerful network protocol analyzer that can help you troubleshoot and analyze HTTP/2 traffic. It allows you to capture and inspect HTTP/2 frames, streams, and headers to understand performance issues, debug server configurations, and ensure protocol compliance.
+
+**NGINIX Confihuration Example**
+````
+ server {
+    listen 443 ssl http2;
+    server_name yourdomain.com;
+
+    ssl_certificate /path/to/ssl/certificate.crt;
+    ssl_certificate_key /path/to/ssl/private.key;
+
+    location / {
+        root /var/www/html;
+        index index.html;
+    }
+ }
+````
+````
+sudo systemctl restart nginx
+````
+
 Reference - https://www.digitalocean.com/community/tutorials/http-1-1-vs-http-2-what-s-the-difference
 
 
