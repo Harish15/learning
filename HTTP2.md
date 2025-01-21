@@ -30,5 +30,7 @@ The adoption of HTTP2 brings significant performance benefits. Combining feature
 
 HTTP2 is designed to be backward-compatible with HTTP/1.1, ensuring that existing web infrastructure can seamlessly transition to the latest protocol. Most modern browsers and servers support HTTP/2, allowing website owners and developers to take advantage of its benefits without major compatibility issues.
 
+Reference - https://www.digitalocean.com/community/tutorials/http-1-1-vs-http-2-what-s-the-difference
+
 
 
