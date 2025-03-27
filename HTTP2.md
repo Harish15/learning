@@ -34,7 +34,7 @@ HTTP2 is designed to be backward-compatible with HTTP/1.1, ensuring that existin
 
 **Wireshark** is a powerful network protocol analyzer that can help you troubleshoot and analyze HTTP/2 traffic. It allows you to capture and inspect HTTP/2 frames, streams, and headers to understand performance issues, debug server configurations, and ensure protocol compliance.
 
-**NGINIX Confihuration Example**
+**NGINIX Configuration Example**
 ````
  server {
     listen 443 ssl http2;
